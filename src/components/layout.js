@@ -3,6 +3,8 @@ import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import styled from 'styled-components'
 
+import media from './mediaqueries'
+
 import Header from "./header"
 import Menu from "./menu"
 import "./layout.css"
@@ -19,6 +21,22 @@ const BodyWrapper = styled.div `
       border: 1px solid #eee;
       border-radius: 5px;
       box-shadow: 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 6px 12px;
+ ${media.xldesktop`
+      margin-top: 80px;
+    `} 
+  ${media.bigdesktop`
+      margin-top: 20px;
+    `} 
+   ${media.desktop`
+      margin-top: 20px;
+    `} 
+    ${media.tablet`
+      margin-top: 70px;
+    `} 
+    ${media.phone`
+      margin-top: 25px;
+
+    `} 
 `
 
 const Layout = ({ children, }) => (

@@ -8,6 +8,9 @@ import media from './mediaqueries'
 
 const StyledHeader = styled.div `
     margin-bottom: 1.5rem;
+    ${media.desktop`
+      margin-bottom: 0;
+    `} 
 `
 
 const CoverWrapper = styled.div `
@@ -42,7 +45,7 @@ const BackRect = styled.div `
      ${media.desktop`
       top: 30%;
       background-color: #669933;
-      height: 80px;
+      height: 125px;
   `}
   ${media.tablet`
       height: 120px;
