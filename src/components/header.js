@@ -23,7 +23,7 @@ const CoverWrapper = styled.div `
       height: 250px;
   `}
     ${media.phone`
-      height: 230px;
+      height: auto;
   `}
      `
 
@@ -50,9 +50,7 @@ const BackRect = styled.div `
       width: 95%;
   `}
     ${media.phone`
-      height: 170px;
-      top:70%;
-      width: 95%;
+      display: none;
   `}
 `
 
@@ -74,9 +72,11 @@ const TextSection = styled.div `
       top: 85%;
   `}
     ${media.phone`
-        top: 70%;
-        width: auto;
-        left: 50%;
+        position: static;
+        width: 100%;
+        -webkit-transform: none;
+        transform: none;
+        background-color: #669933;
     `}
 `
 const TitleLink = styled(props => <Link {...props} />) `
