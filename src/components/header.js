@@ -1,42 +1,73 @@
-import { Link } from "gatsby"
+import { Link} from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-const Header = ({ siteTitle }) => (
+import CoverImage from "./coverimage"
+
+const Header = ({ siteTitle, siteDesc }) => (
   <header
     style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
+      marginBottom: `1.5rem`,
     }}
   >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
+  <div  style={{
+      position: `relative`,
+      height: `180px`
+    }}>
+   <CoverImage />
+     <div style={{
+      position: `absolute`,
+      backgroundColor: `#669933`,
+      top:`50%`,
+      left: `50%`,
+      transform: `translate(-50%, -50%)`,
+      zIndex: `8`,
+      content: ``,
+      width: `410px`,
+      height: `80px`,
+      opacity: `.7`,
+      borderRadius: `10px`,
+     }} >
+     </div>
+   <div style={{
+      position: `absolute`,
+      color: `white`,
+      top:`50%`,
+      left: `50%`,
+      transform: `translate(-50%, -50%)`,
+      textAlign: `center`,
+      fontWeight: `800`,
+      wordWrap: `noWrap`,
+      zIndex: `99`,
+      textShadow: `1px 1px 4px rgba(34,34,34,0.6)`,
+    }}
+    > <Link
           to="/"
           style={{
             color: `white`,
             textDecoration: `none`,
+            fontSize: `2rem`,
           }}
-        >
-          {siteTitle}
+        >{siteTitle} 
         </Link>
-      </h1>
-    </div>
+        <div style={{
+            fontSize: `1.25rem`,
+          }}>{siteDesc}
+          </div>
+        </div>
+      </div>
+  
   </header>
 )
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
+  siteDesc: PropTypes.string,
 }
 
 Header.defaultProps = {
   siteTitle: ``,
+  siteDesc: ``,
 }
 
 export default Header

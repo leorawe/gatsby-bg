@@ -3,7 +3,6 @@ module.exports = {
     title: `Barbara Gelfand, LCSW`,
     description: `Licensed Clinical Social Worker`,
     author: `@gatsbyjs`,
-  },
   headerLinks: [
     {
       name: '🏡',
@@ -22,6 +21,7 @@ module.exports = {
       link: '/contact',
     }
   ],
+},
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
