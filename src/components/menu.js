@@ -24,6 +24,9 @@ const Hamburger = styled.div`
   margin: 5px 0;
   text-align: center;
   width: 100%;
+  ${media.tablet`
+    display: initial;
+  `} 
   ${media.phone`
     display: initial;
   `} 
@@ -43,6 +46,10 @@ const HeaderNav = styled.nav`
   background-color: #333;
   &.panel-open {display: flex;}
   &.panel-closed {display: none;}
+  ${media.tablet`
+    flex-direction: column;
+    height: auto;
+  `} 
   ${media.phone`
     flex-direction: column;
     height: auto;
@@ -50,6 +57,9 @@ const HeaderNav = styled.nav`
 `
 
 const HeaderDesk = styled.nav`
+${media.tablet`
+    display: none;
+  `} 
 ${media.phone`
     display: none;
   `} 
