@@ -35,7 +35,7 @@ const BackRect = styled.div `
      transform: translate(-50%, -50%);
      z-index: 8;
      content: "";
-     width: 410px;
+     width: 450px;
      height: 100px;
      opacity: .7;
      border-radius: 10px;
