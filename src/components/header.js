@@ -36,7 +36,7 @@ const BackRect = styled.div `
      z-index: 8;
      content: "";
      width: 410px;
-     height: 80px;
+     height: 100px;
      opacity: .7;
      border-radius: 10px;
      ${media.desktop`
@@ -84,7 +84,7 @@ const TitleLink = styled(props => <Link {...props} />) `
       text-decoration: none;
       font-size: 2rem;
       ${media.tablet`
-      font-size: 1.5rem;
+      font-size: 1.8rem;
   `}
 `
 const Header = ({ siteTitle, siteDesc }) => (
