@@ -24,11 +24,8 @@ const Hamburger = styled.div`
   margin: 5px 0;
   text-align: center;
   width: 100%;
-  ${media.desktop`
-    display: none;
-  `} 
   ${media.phone`
-    display: block;
+    display: initial;
   `} 
 `
 
@@ -44,6 +41,8 @@ const HeaderNav = styled.nav`
   overflow-x: auto;
   overflow-y: hidden;
   background-color: #333;
+  &.panel-open {display: flex;}
+  &.panel-closed {display: none;}
   ${media.phone`
     flex-direction: column;
     height: auto;
@@ -94,14 +93,30 @@ const HeaderSpot = styled.div`
 const Menu = class extends Component {
   constructor(props) {
     super(props)
-    this.state =  { isOpen: false };
+    this.state =  { 
+      isOpen: false,
+      navBarActiveClass: '',
+    };
   }
 
   toggleHamburger = () => {
     //alert('toggle');
     //console.log('tog');
     // toggle the active boolean in the state
-    this.setState({ isOpen: !this.state.isOpen });
+    this.setState(
+      { isOpen: !this.state.isOpen }
+      // after state has been updated,
+    //   () => {
+    //     // set the class in state for the navbar accordingly
+    //     this.state.active
+    //       ? this.setState({
+    //           navBarActiveClass: 'is-active',
+    //         })
+    //       : this.setState({
+    //           navBarActiveClass: '',
+    //   })
+    // }
+    )
   }
 
 
@@ -125,7 +140,8 @@ render() {
   </HeaderNav>
   </HeaderDesk>
 
-  <HeaderNav className={this.state.isOpen===true ? "panel-open" : "panel-closed"}>
+  <HeaderNav 
+  className={this.state.isOpen===true ? "panel-open" : "panel-closed"}>
         {this.props.headerLinks.map((headerLink, i) => (
             <HeaderLink to={headerLink.link} key={`header-link-${i}`}>
               {headerLink.name}
