@@ -67,7 +67,7 @@ const HeaderLink = styled(Link)`
   padding-left: 20px;
   padding-right: 20px;
   min-width: 42px;
-  font-size: 12px;
+  font-size: .9rem;
   z-index: 10;
   &:hover {
     color: #99cc66;
@@ -86,7 +86,7 @@ const HeaderSpot = styled.div`
   padding-left: 20px;
   padding-right: 20px;
   min-width: 42px;
-  font-size: 12px;
+  font-size: .9rem;
   z-index: 10;
   `
 
