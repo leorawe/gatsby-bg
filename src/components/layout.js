@@ -8,9 +8,12 @@ import Menu from "./menu"
 import "./layout.css"
 
 const BodyWrapper = styled.div `
-      margin: 0 auto;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 200px;
+      position: static;
       background-color: #ffffff;
-      max-width: 800px;
+      max-width: 1100px;
       padding: 0px 1.0875rem 1.45rem;
       padding-top: 0;
       border: 1px solid #eee;
