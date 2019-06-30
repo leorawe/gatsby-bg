@@ -17,6 +17,10 @@ module.exports = {
       link: '/education',
     },
     {
+      name: 'Areas of Specialty',
+      link: '/specialty',
+    },
+    {
       name: 'Contact',
       link: '/contact',
     }

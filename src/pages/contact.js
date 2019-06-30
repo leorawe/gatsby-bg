@@ -1,11 +1,13 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Pagetitle from "../components/pagetitle"
 
 const Contact = () => (
   <Layout>
     <SEO title="Contact Barbara Gelfand" />
-    <h1>Contact Barbara Gelfand</h1>
+    <Pagetitle
+    pagetitle = "Contact Barbara Gelfand" />
     <p>Welcome to page </p>
   </Layout>
 )
