@@ -12,7 +12,7 @@ import "./layout.css"
 const BodyWrapper = styled.div `
       margin-left: auto;
       margin-right: auto;
-      margin-top: 260px;
+      margin-top: 280px;
       position: static;
       background-color: #ffffff;
       max-width: 1100px;
@@ -21,6 +21,9 @@ const BodyWrapper = styled.div `
       border: 1px solid #eee;
       border-radius: 5px;
       box-shadow: 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 6px 12px;
+${media.xlarge`
+      margin-top: 200px;
+    `} 
 ${media.xl`
       margin-top: 120px;
     `} 
