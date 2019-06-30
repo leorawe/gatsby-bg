@@ -14,6 +14,7 @@ const BodyWrapper = styled.div `
       padding: 0px 1.0875rem 1.45rem;
       padding-top: 0;
       border: 1px solid #eee;
+      border-radius: 5px;
 `
 
 const Layout = ({ children, }) => (
