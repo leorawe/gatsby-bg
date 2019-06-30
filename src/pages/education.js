@@ -5,7 +5,7 @@ import Pagetitle from "../components/pagetitle"
 
 const Education = () => (
   <Layout>
-    <SEO title="Education two" />
+    <SEO title="Education of Barbara Gelfand, LCSW" />
     <Pagetitle
     pagetitle = "Education of Barbara Gelfand, LCSW" />
     <p>Master in Clinical Social Work, New York University  </p>
