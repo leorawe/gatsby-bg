@@ -24,6 +24,9 @@ const Hamburger = styled.div`
   margin: 5px 0;
   text-align: center;
   width: 100%;
+  ${media.desktop`
+    display: none;
+  `} 
   ${media.phone`
     display: block;
   `} 
@@ -95,7 +98,7 @@ const Menu = class extends Component {
   }
 
   toggleHamburger = () => {
-    alert('toggle');
+    //alert('toggle');
     //console.log('tog');
     // toggle the active boolean in the state
     this.setState({ isOpen: !this.state.isOpen });
