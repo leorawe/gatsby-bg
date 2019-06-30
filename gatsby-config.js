@@ -9,8 +9,8 @@ module.exports = {
       link: '/',
     },
     {
-      name: 'About',
-      link: '/about',
+      name: 'Health and Wellness',
+      link: '/health',
     },
     {
       name: 'Education and Work History',

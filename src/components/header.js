@@ -4,6 +4,7 @@ import React from "react"
 import styled from 'styled-components'
 
 import CoverImage from "./coverimage"
+import media from './mediaqueries'
 
 const StyledHeader = styled.div `
     margin-bottom: 1.5rem;
@@ -12,6 +13,18 @@ const StyledHeader = styled.div `
 const CoverWrapper = styled.div `
      position: relative;
      height: 200px;
+  ${media.bigdesktop`
+      height: 240px;
+  `}
+  ${media.desktop`
+      height: 210px;
+  `}
+  ${media.tablet`
+      height: 250px;
+  `}
+    ${media.phone`
+      height: 230px;
+  `}
      `
 
 const BackRect = styled.div `
@@ -26,6 +39,21 @@ const BackRect = styled.div `
      height: 80px;
      opacity: .7;
      border-radius: 10px;
+     ${media.desktop`
+      top: 30%;
+      background-color: #669933;
+      height: 80px;
+  `}
+  ${media.tablet`
+      height: 120px;
+      top: 85%;
+      width: 95%;
+  `}
+    ${media.phone`
+      height: 170px;
+      top:70%;
+      width: 95%;
+  `}
 `
 
 const TextSection = styled.div `
@@ -36,11 +64,29 @@ const TextSection = styled.div `
       transform: translate(-50%, -50%);
       text-align: center;
       font-weight: 800px;
-      word-wrap: noWrap;
+      word-wrap: no-wrap;
       z-index: 99;
       text-shadow: 1px 1px 4px rgba(34,34,34,0.6);
+      ${media.desktop`
+      top: 30%;
+  `}
+  ${media.tablet`
+      top: 85%;
+  `}
+    ${media.phone`
+        top: 70%;
+        width: auto;
+        left: 50%;
+    `}
 `
-
+const TitleLink = styled(props => <Link {...props} />) `
+      color: white;
+      text-decoration: none;
+      font-size: 2rem;
+      ${media.tablet`
+      font-size: 1.5rem;
+  `}
+`
 const Header = ({ siteTitle, siteDesc }) => (
   <StyledHeader>
   <CoverWrapper>
@@ -48,15 +94,11 @@ const Header = ({ siteTitle, siteDesc }) => (
      <BackRect>
      </BackRect>
    <TextSection
-    > <Link
+    > <TitleLink
           to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-            fontSize: `2rem`,
-          }}
+
         >{siteTitle} 
-        </Link>
+        </TitleLink>
         <div style={{
             fontSize: `1.25rem`,
           }}>{siteDesc}
