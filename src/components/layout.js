@@ -9,10 +9,10 @@ import "./layout.css"
 
 const BodyWrapper = styled.div `
       margin: 0 auto;
-      backgroundColor: #ffffff;
-      maxWidth: 800;
+      background-color: #ffffff;
+      max-width: 800px;
       padding: 0px 1.0875rem 1.45rem;
-      paddingTop: 0;
+      padding-top: 0;
       border: 1px solid #eee;
 `
 
@@ -43,7 +43,7 @@ const Layout = ({ children, }) => (
         <BodyWrapper>
           <main>{children}</main>
           <footer>
-            © {new Date().getFullYear()}, copyright 
+            © {new Date().getFullYear()}  
             {` `}
             Barbara Gelfand
           </footer>

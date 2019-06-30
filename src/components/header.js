@@ -1,46 +1,53 @@
 import { Link} from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import styled from 'styled-components'
 
 import CoverImage from "./coverimage"
 
+const StyledHeader = styled.div `
+    margin-bottom: 1.5rem;
+`
+
+const CoverWrapper = styled.div `
+     position: relative;
+     height: 200px;
+     `
+
+const BackRect = styled.div `
+     position: absolute;
+     background-color: #669933;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     z-index: 8;
+     content: "";
+     width: 410px;
+     height: 80px;
+     opacity: .7;
+     border-radius: 10px;
+`
+
+const TextSection = styled.div `
+      position: absolute;
+      color: white;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      font-weight: 800px;
+      word-wrap: noWrap;
+      z-index: 99;
+      text-shadow: 1px 1px 4px rgba(34,34,34,0.6);
+`
+
 const Header = ({ siteTitle, siteDesc }) => (
-  <header
-    style={{
-      marginBottom: `1.5rem`,
-    }}
-  >
-  <div  style={{
-      position: `relative`,
-      height: `180px`
-    }}>
+  <StyledHeader>
+  <CoverWrapper>
    <CoverImage />
-     <div style={{
-      position: `absolute`,
-      backgroundColor: `#669933`,
-      top:`50%`,
-      left: `50%`,
-      transform: `translate(-50%, -50%)`,
-      zIndex: `8`,
-      content: ``,
-      width: `410px`,
-      height: `80px`,
-      opacity: `.7`,
-      borderRadius: `10px`,
-     }} >
-     </div>
-   <div style={{
-      position: `absolute`,
-      color: `white`,
-      top:`50%`,
-      left: `50%`,
-      transform: `translate(-50%, -50%)`,
-      textAlign: `center`,
-      fontWeight: `800`,
-      wordWrap: `noWrap`,
-      zIndex: `99`,
-      textShadow: `1px 1px 4px rgba(34,34,34,0.6)`,
-    }}
+     <BackRect>
+     </BackRect>
+   <TextSection
     > <Link
           to="/"
           style={{
@@ -54,10 +61,10 @@ const Header = ({ siteTitle, siteDesc }) => (
             fontSize: `1.25rem`,
           }}>{siteDesc}
           </div>
-        </div>
-      </div>
+        </TextSection>
+      </CoverWrapper>
   
-  </header>
+  </StyledHeader>
 )
 
 Header.propTypes = {
