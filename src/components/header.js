@@ -82,9 +82,9 @@ const TextSection = styled.div `
 const TitleLink = styled(props => <Link {...props} />) `
       color: white;
       text-decoration: none;
-      font-size: 2rem;
+      font-size: 2.5rem;
       ${media.tablet`
-      font-size: 1.8rem;
+      font-size: 1.5rem;
   `}
 `
 const Header = ({ siteTitle, siteDesc }) => (
