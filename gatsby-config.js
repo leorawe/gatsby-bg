@@ -4,6 +4,24 @@ module.exports = {
     description: `Licensed Clinical Social Worker`,
     author: `@gatsbyjs`,
   },
+  headerLinks: [
+    {
+      name: '🏡',
+      link: '/',
+    },
+    {
+      name: 'About',
+      link: '/about',
+    },
+    {
+      name: 'Education and Work History',
+      link: '/education',
+    },
+    {
+      name: 'Contact',
+      link: '/contact',
+    }
+  ],
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
