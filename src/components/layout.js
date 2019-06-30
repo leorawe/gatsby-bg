@@ -10,11 +10,11 @@ import "./layout.css"
 const BodyWrapper = styled.div `
       margin-left: auto;
       margin-right: auto;
-      margin-top: 220px;
+      margin-top: 240px;
       position: static;
       background-color: #ffffff;
       max-width: 1100px;
-      padding: 0px 1.0875rem 1.45rem;
+      padding: 0px 4rem 1.45rem;
       padding-top: 0;
       border: 1px solid #eee;
       border-radius: 5px;

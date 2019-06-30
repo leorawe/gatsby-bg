@@ -4,6 +4,8 @@ import styled from 'styled-components'
 const StyledH1 = styled.h1 `
     font-size: 1.5rem;
     padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #cecece;
 `
 const Pagetitle = ({pagetitle}) => {
    return (
