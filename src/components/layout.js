@@ -21,6 +21,9 @@ const BodyWrapper = styled.div `
       border: 1px solid #eee;
       border-radius: 5px;
       box-shadow: 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 6px 12px;
+${media.big`
+      margin-top: 240px;
+    `} 
 ${media.xlarge`
       margin-top: 200px;
     `} 
@@ -74,7 +77,7 @@ const Layout = ({ children, }) => (
           <footer>
             © {new Date().getFullYear()}  
             {` `}
-            Barbara Gelfand
+            Barbara Gelfand LCSW
           </footer>
         </BodyWrapper>
       </>

@@ -8,6 +8,8 @@ import media from './mediaqueries'
 
 const StyledHeader = styled.div `
     margin-bottom: 1.5rem;
+    max-width: 2200px;
+    margin: 0 auto;
     ${media.desktop`
       margin-bottom: 0;
     `} 

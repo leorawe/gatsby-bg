@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import Link from 'gatsby-link'
 
-
 const Navbar = class extends Component {
   constructor(props) {
     super(props)
