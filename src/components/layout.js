@@ -47,6 +47,10 @@ ${media.xl`
       margin-top: 25px;
     `} 
 `
+const HorizRule = styled.hr `
+      height: 2px;
+`
+
 
 const Layout = ({ children, }) => (
   <StaticQuery
@@ -75,7 +79,7 @@ const Layout = ({ children, }) => (
         <BodyWrapper>
           <main>{children}</main>
           <footer>
-          <hr />
+          <HorizRule />
             © {new Date().getFullYear()}  
             {` `}
             Barbara Gelfand LCSW

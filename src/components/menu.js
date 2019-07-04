@@ -36,10 +36,10 @@ const Hamburger = styled.div`
 const HeaderNav = styled.nav`
   margin-left: auto;
   margin-right: auto;
-  height: 40px;
+  height: 50px;
   display: flex;
   flex-direction: row;
-  max-width: 800px;
+  max-width: 950px;
   z-index: 1000;
   justify-content: flex-start;
   overflow-x: auto;
@@ -74,17 +74,20 @@ const HeaderLink = styled(Link)`
   text-decoration: none;
   border: 0;
   margin: 0;
-  margin-right: 0.5rem;
+  margin-right: 0;
   padding-left: 20px;
   padding-right: 20px;
-  min-width: 42px;
-  font-size: .9rem;
+  min-width: 50px;
+  font-size: 1rem;
   z-index: 10;
   &:hover {
     color: #99cc66;
   }
+  ${media.desktop`
+    padding: 10px;
+  `} 
   ${media.tablet`
-    padding: 20px;
+    padding: 10px;
     border-bottom: 1px solid gray;
   `} 
 `

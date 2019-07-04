@@ -45,9 +45,9 @@ const BackRect = styled.div `
      opacity: .7;
      border-radius: 10px;
      ${media.desktop`
-      top: 30%;
+      top: 35%;
       background-color: #669933;
-      height: 125px;
+      height: 130px;
   `}
   ${media.tablet`
       height: 120px;
@@ -71,7 +71,7 @@ const TextSection = styled.div `
       z-index: 99;
       text-shadow: 1px 1px 4px rgba(34,34,34,0.6);
       ${media.desktop`
-      top: 30%;
+      top: 35%;
   `}
   ${media.tablet`
       top: 85%;

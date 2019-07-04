@@ -10,7 +10,7 @@ const Education = () => (
     pagetitle = "Education of Barbara Gelfand, LCSW" />
     <p>Master in Clinical Social Work, New York University  </p>
 
-<p>Post-graduate studies:  </p>
+<p>Post-graduate studies:</p>
 <ul>
 <li>Center for Psychotherapy and Psychoanalysis-CPPNJ (formerly Institute for Psychoanalysis and Psychotherapy of New Jersey)</li>
 <li>Family Therapy Program, Rutgers-University Behavioral Healthcare (formerly University of Medicine and Dentistry of New Jersey)</li>
