@@ -51,7 +51,7 @@ const BackRect = styled.div `
   `}
   ${media.tablet`
       height: 120px;
-      top: 85%;
+      top: 87%;
       width: 95%;
   `}
     ${media.phone`

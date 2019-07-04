@@ -83,6 +83,10 @@ const HeaderLink = styled(Link)`
   &:hover {
     color: #99cc66;
   }
+  ${media.tablet`
+    padding: 20px;
+    border-bottom: 1px solid gray;
+  `} 
 `
 
 const HeaderSpot = styled.div`

@@ -5,10 +5,14 @@ import Pagetitle from "../components/pagetitle"
 
 const Health = () => (
   <Layout>
-    <SEO title="Health and Wellness, Barbara Gelfand, LCSW" />
+    <SEO title="Barbara Gelfand, LCSW Health and Wellness, therapist in New Jersey" />
     <Pagetitle
     pagetitle = "Health and Wellness" />
-    <p>Welcome to page </p>
+    <p>My approach to health and wellness incorporates psychodynamic, cognitive behavioral, somatic and mindfulness-based therapies. Together these approaches empower a deeper understanding of the mind/body connection. They foster self-awareness, and increase self-esteem and confidence in the ability to meet life’s challenges.   </p>
+
+
+    <p>Mind/body techniques include listening to the body and breath; slowing down to increase awareness of sensation; paying attention to both our physical and psychological edge; understanding repetitive patterns of physical activity or inactivity; and using this knowledge to strengthen our relationship patterns and our core sense of self. Integrating mind/body techniques helps to protect and soothe both physical and psychological pain and promotes health and wellness.
+    </p> 
   </Layout>
 )
 

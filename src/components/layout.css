@@ -203,6 +203,8 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
+  font-size: 1.25rem;
+  line-height: 36px;
   font-family: "Lato", sans-serif;
   font-weight: normal;
   word-wrap: break-word;

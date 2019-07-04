@@ -13,6 +13,7 @@ const BodyWrapper = styled.div `
       margin-left: auto;
       margin-right: auto;
       margin-top: 280px;
+      margin-bottom: 40px;
       position: static;
       background-color: #ffffff;
       max-width: 1100px;
@@ -40,11 +41,10 @@ ${media.xl`
       margin-top: 20px;
     `} 
     ${media.tablet`
-      margin-top: 70px;
+      margin-top: 60px;
     `} 
     ${media.phone`
       margin-top: 25px;
-
     `} 
 `
 
@@ -75,6 +75,7 @@ const Layout = ({ children, }) => (
         <BodyWrapper>
           <main>{children}</main>
           <footer>
+          <hr />
             © {new Date().getFullYear()}  
             {` `}
             Barbara Gelfand LCSW
