@@ -108,12 +108,17 @@ const HeaderSpot = styled.div`
   z-index: 10;
   `
 
+  const HeaderMobile = styled.div`
+    @media (min-width: 768px) {
+      display: none;
+    }
+  `
+
 const Menu = class extends Component {
   constructor(props) {
     super(props)
     this.state =  { 
       isOpen: false,
-      navBarActiveClass: '',
     };
   }
 
@@ -123,17 +128,6 @@ const Menu = class extends Component {
     // toggle the active boolean in the state
     this.setState(
       { isOpen: !this.state.isOpen }
-      // after state has been updated,
-    //   () => {
-    //     // set the class in state for the navbar accordingly
-    //     this.state.active
-    //       ? this.setState({
-    //           navBarActiveClass: 'is-active',
-    //         })
-    //       : this.setState({
-    //           navBarActiveClass: '',
-    //   })
-    // }
     )
   }
 
@@ -157,7 +151,8 @@ render() {
             ))}      
   </HeaderNav>
   </HeaderDesk>
-
+  
+  <HeaderMobile>
   <HeaderNav 
   className={this.state.isOpen===true ? "panel-open" : "panel-closed"}>
         {this.props.headerLinks.map((headerLink, i) => (
@@ -166,6 +161,7 @@ render() {
             </HeaderLink>
             ))}      
   </HeaderNav>
+  </HeaderMobile>
 
 </HeaderWrapper>
 )
