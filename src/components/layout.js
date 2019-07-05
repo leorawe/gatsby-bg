@@ -12,7 +12,7 @@ import "./layout.css"
 const BodyWrapper = styled.div `
       margin-left: auto;
       margin-right: auto;
-      margin-top: 280px;
+      margin-top: 330px;
       margin-bottom: 40px;
       position: static;
       background-color: #ffffff;
