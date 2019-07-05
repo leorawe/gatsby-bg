@@ -42,9 +42,11 @@ ${media.xl`
     `} 
     ${media.tablet`
       margin-top: 60px;
+      padding: 0px 2rem 1.45rem;
     `} 
     ${media.phone`
       margin-top: 25px;
+      padding: 0px 2rem 1.45rem;
     `} 
 `
 const HorizRule = styled.hr `

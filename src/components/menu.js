@@ -24,7 +24,7 @@ const Hamburger = styled.div`
   margin: 5px 0;
   text-align: center;
   width: 100%;
-  padding: 20px;
+  padding: 15px;
   ${media.tablet`
     display: initial;
   `} 
