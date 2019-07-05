@@ -5,7 +5,10 @@ import Pagetitle from "../components/pagetitle"
 
 const Education = () => (
   <Layout>
-    <SEO title="Areas of Specialty of Barbara Gelfand, LCSW" />
+    <SEO 
+    title="Areas of Specialty of Barbara Gelfand, LCSW" 
+    description="Barbara Gelfand's areas of specialty are Individual, family and couples therapy treating anxiety, depression, relationships, grief, eating disorders, stress reduction, meditation, spirituality, Jewish family life"
+    />
     <Pagetitle
     pagetitle = "Areas of Specialty"
 

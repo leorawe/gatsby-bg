@@ -5,7 +5,10 @@ import Pagetitle from "../components/pagetitle"
 
 const Health = () => (
   <Layout>
-    <SEO title="Barbara Gelfand, LCSW Health and Wellness, therapist in New Jersey" />
+    <SEO 
+    title="Barbara Gelfand, LCSW Health and Wellness, therapist in New Jersey"
+    description="Barbara Gelfand's approach to health and wellness incorporates psychodynamic, cognitive behavioral, somatic and mindfulness-based therapies. Together these methods lead to a deeper understanding of the mind/body connection."
+     />
     <Pagetitle
     pagetitle = "Health and Wellness" />
     <p>My approach to health and wellness incorporates psychodynamic, cognitive behavioral, somatic and mindfulness-based therapies. Together these approaches empower a deeper understanding of the mind/body connection. They foster self-awareness, and increase self-esteem and confidence in the ability to meet life’s challenges.   </p>

@@ -6,7 +6,10 @@ import Pagetitle from "../components/pagetitle"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Psychotherapy Practice of Barbara Gelfand, LCSW" />
+    <SEO 
+    title="Psychotherapy Practice of Barbara Gelfand, LCSW" 
+    description="We all have a desire to be heard, to be understood, and to be soothed. We often yearn for more satisfying and loving relationships. In therapy, Barbara Gelfand will listen carefully to you…"
+    />
     <Pagetitle
     pagetitle = "Psychotherapy Practice of Barbara Gelfand, LCSW"
     />

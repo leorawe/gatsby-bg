@@ -5,7 +5,10 @@ import Pagetitle from "../components/pagetitle"
 
 const Contact = () => (
   <Layout>
-    <SEO title="Contact Barbara Gelfand" />
+    <SEO 
+    title="Contact Barbara Gelfand" 
+    description="Contact Barbara Gelfand by email or by phone (732-220-8844) - located in Highland Park, New Jersey"
+    />
     <Pagetitle
     pagetitle = "Contact Barbara Gelfand" />
     <p><strong>732-220-8844</strong><br />
