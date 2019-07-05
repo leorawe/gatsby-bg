@@ -13,7 +13,7 @@ const Education = () => (
     pagetitle = "Areas of Specialty"
 
     />
-    <p>Barbara Gelfand LCSW works in these specialties:</p>
+    <p>My practice focuses on clinical work with older adolescents and adults utilizing individual, group, family and couples modalities. My areas of expertise includes:</p>
     <ul>
 <li>	Anxiety</li>
 <li>	Depression</li>

@@ -39,7 +39,7 @@ const HeaderNav = styled.nav`
   height: 50px;
   display: flex;
   flex-direction: row;
-  max-width: 950px;
+  max-width: 1100px;
   z-index: 1000;
   justify-content: flex-start;
   overflow-x: auto;
@@ -84,7 +84,7 @@ const HeaderLink = styled(Link)`
     color: #99cc66;
   }
   ${media.desktop`
-    padding: 10px;
+    padding: 2px;
   `} 
   ${media.tablet`
     padding: 10px;

@@ -17,9 +17,12 @@ const StyledHeader = styled.div `
 
 const CoverWrapper = styled.div `
      position: relative;
-     height: 200px;
+     height: 270px;
+  ${media.xldesktop`
+      height: 260px;
+  `}
   ${media.bigdesktop`
-      height: 240px;
+      height: 250px;
   `}
   ${media.desktop`
       height: 210px;

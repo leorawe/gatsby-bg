@@ -12,7 +12,7 @@ import "./layout.css"
 const BodyWrapper = styled.div `
       margin-left: auto;
       margin-right: auto;
-      margin-top: 330px;
+      margin-top: 260px;
       margin-bottom: 40px;
       position: static;
       background-color: #ffffff;
@@ -23,22 +23,25 @@ const BodyWrapper = styled.div `
       border-radius: 5px;
       box-shadow: 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 6px 12px;
 ${media.big`
-      margin-top: 240px;
+      margin-top: 160px;
     `} 
 ${media.xlarge`
-      margin-top: 200px;
+      margin-top: 100px;
     `} 
 ${media.xl`
-      margin-top: 120px;
+      margin-top: 80px;
+
     `} 
  ${media.xldesktop`
-      margin-top: 80px;
+      margin-top: 70px;
+
     `} 
   ${media.bigdesktop`
       margin-top: 20px;
+
     `} 
    ${media.desktop`
-      margin-top: 20px;
+      margin-top: 10px;
     `} 
     ${media.tablet`
       margin-top: 60px;
@@ -84,7 +87,7 @@ const Layout = ({ children, }) => (
           <HorizRule />
             © {new Date().getFullYear()}  
             {` `}
-            Barbara Gelfand LCSW
+            Barbara Gelfand, LCSW
           </footer>
         </BodyWrapper>
       </>

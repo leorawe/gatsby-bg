@@ -11,7 +11,7 @@ const Education = () => (
     />
     <Pagetitle
     pagetitle = "Education of Barbara Gelfand, LCSW" />
-    <p>Master in Clinical Social Work, New York University  </p>
+    <p>Master in Clinical Social Work, New York University, 1987 </p>
 
 <p>Post-graduate studies:</p>
 <ul>
