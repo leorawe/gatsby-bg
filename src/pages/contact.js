@@ -8,7 +8,15 @@ const Contact = () => (
     <SEO title="Contact Barbara Gelfand" />
     <Pagetitle
     pagetitle = "Contact Barbara Gelfand" />
-    <p>Welcome to page </p>
+    <p><strong>732-220-8844</strong><br />
+    <a href="mailto:barbaragelfand@gmail.com"><strong>barbaragelfand@gmail.com</strong></a></p>
+     <p> 1164 Raritan Avenue<br />
+      Highland Park, NJ 08904</p>
+      <p>NJ License # SC05954</p>
+      <p>Insurance Accepted</p>
+      <p><strong>Office is Located Near</strong><br />
+Highland Park, East Brunswick, New Brunswick, Piscataway, Edison, Metuchen, Kendall Park, South Brunswick, Hillsborough and Montgomery</p>
+
   </Layout>
 )
 
