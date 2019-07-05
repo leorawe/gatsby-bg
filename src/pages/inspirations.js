@@ -7,6 +7,7 @@ const Inspirations = () => (
   <Layout>
     <SEO 
     title="Inspirations of Barbara Gelfand, LCSW, therapist in New Jersey"
+    description="Holistic therapy in Central New Jersey integrating positive psychology and compassion training. "
         />
     <Pagetitle
     pagetitle = "Inspirations" />
