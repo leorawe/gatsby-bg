@@ -28,9 +28,10 @@ const Education = () => (
 
 <p>Continuum Movement and Embodied Meditation practitioner  </p>
 
-<p>Licensed Clinical Social Worker for the Department of Medicine at Saint Peter’s University Hospital supporting physician practices in internal medicine, geriatrics, oncology, endocrinology, pulmonary, cardiology and gastroenterology, 2001 to present.  
+<p>Licensed Clinical Social Worker for the Department of Medicine at Saint Peter’s University Hospital 
+supporting physician practices in internal medicine, geriatrics, oncology, endocrinology, pulmonary, cardiology and gastroenterology, 2001 to present.  </p>
 
-Private practice since 1990.  </p>
+<p>Private practice since 1990.  </p>
   </Layout>
 )
 

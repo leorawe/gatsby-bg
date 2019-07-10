@@ -39,21 +39,21 @@ const Inspirations = () => (
         </blockquote>
 
         <blockquote>
-        In the end, just three things matter: 
-        How well we have lived
-        How well we have loved
-        How well we have learned to let go.
-        <br /><em>Jack Kornfield</em>
+        In the end, just three things matter: <br />
+        How well we have lived<br />
+        How well we have loved<br />
+        How well we have learned to let go.<br />
+        <em>Jack Kornfield</em>
         </blockquote>
 
         <blockquote>
-        Sometimes we travel too far away from home.
-        And it takes a long time to return.
-        You can return to your body with your breath.
-        Listen to the sounds within calling you home.
-        Pause, walk slowly.
-        Each step brings you closer to home.
-        <br /><em>Barbara Gelfand</em>
+        Sometimes we travel too far away from home.<br />
+        And it takes a long time to return.<br />
+        You can return to your body with your breath.<br />
+        Listen to the sounds within calling you home.<br />
+        Pause, walk slowly.<br />
+        Each step brings you closer to home.<br />
+        <em>BG</em>
         </blockquote>
 
   </Layout>
