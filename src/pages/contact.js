@@ -30,7 +30,6 @@ const Contact = () => (
      <p> 1164 Raritan Avenue<br />
       Highland Park, NJ 08904</p>
       <p>NJ License # SC05954</p>
-      <p>Insurance Accepted</p>
       <StyledH2>Fee</StyledH2>
 My fee is $180/hr. for a 45-minute session.  I am an out-of network provider and will supply you with a monthly statement to submit to your insurance company.  Payment is appreciated at the time of service.  Cash, check or credit card is accepted.  For a limited number of clients, a sliding scale fee is available, to be discussed at our initial session.
 
