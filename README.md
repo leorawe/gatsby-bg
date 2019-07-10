@@ -7,4 +7,8 @@
   About Barbara Gelfand's site
 </h1>
 
-This site is built with Gatsby.
+This site is built with Gatsby. 
+
+Header image of garden uses Gatsby Images - there is a blur when the site first loads (by design), then the image comes into focus.
+
+Navigation menu is stored in json data file and loaded with GraphQL.
