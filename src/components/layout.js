@@ -7,6 +7,7 @@ import media from './mediaqueries'
 
 import Header from "./header"
 import Menu from "./menu"
+import Footer from "./footer"
 import "./layout.css"
 
 const BodyWrapper = styled.div `
@@ -52,10 +53,10 @@ ${media.xl`
       padding: 0px 2rem 1.45rem;
     `} 
 `
+
 const HorizRule = styled.hr `
       height: 2px;
 `
-
 
 const Layout = ({ children, }) => (
   <StaticQuery
@@ -89,7 +90,9 @@ const Layout = ({ children, }) => (
             {` `}
             Barbara Gelfand, LCSW
           </footer>
+          
         </BodyWrapper>
+        <Footer></Footer>
       </>
     )}
   />

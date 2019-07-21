@@ -10,6 +10,7 @@ const DoubleUL = styled.ul`
   columns: 2;
   -webkit-columns: 2;
   -moz-columns: 2;
+  list-style-position: inside;
   ${media.tablet`
   columns: 1;
   -webkit-columns: 1;
