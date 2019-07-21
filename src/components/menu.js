@@ -25,6 +25,9 @@ const Hamburger = styled.div`
   text-align: center;
   width: 100%;
   padding: 15px;
+  ${media.desktop`
+    display: initial;
+  `} 
   ${media.tablet`
     display: initial;
   `} 
@@ -47,6 +50,10 @@ const HeaderNav = styled.nav`
   background-color: #333;
   &.panel-open {display: flex;}
   &.panel-closed {display: none;}
+  ${media.desktop`
+    flex-direction: column;
+    height: auto;
+  `} 
   ${media.tablet`
     flex-direction: column;
     height: auto;
@@ -58,6 +65,9 @@ const HeaderNav = styled.nav`
 `
 
 const HeaderDesk = styled.nav`
+${media.desktop`
+    display: none;
+  `} 
 ${media.tablet`
     display: none;
   `} 
@@ -84,7 +94,8 @@ const HeaderLink = styled(Link)`
     color: #99cc66;
   }
   ${media.desktop`
-    padding: 2px;
+    padding: 10px;
+    border-bottom: 1px solid gray;
   `} 
   ${media.tablet`
     padding: 10px;
@@ -109,7 +120,7 @@ const HeaderSpot = styled.div`
   `
 
   const HeaderMobile = styled.div`
-    @media (min-width: 768px) {
+    @media (min-width: 992px) {
       display: none;
     }
   `

@@ -34,8 +34,10 @@ const BigFooter = styled.footer`
 
 const StyledAnchor = styled.a `
       color: white;
+      border-bottom: 1px solid white;
+      text-decoration: none;
       &:hover {
-        color: #7556be;
+        border-bottom: 1px solid #7556be;
       }
 `
 
