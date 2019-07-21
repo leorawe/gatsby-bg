@@ -64,7 +64,7 @@ const HeaderNav = styled.nav`
   `} 
 `
 
-const HeaderDesk = styled.nav`
+const HeaderDesk = styled.div`
 ${media.desktop`
     display: none;
   `} 
@@ -90,7 +90,7 @@ const HeaderLink = styled(Link)`
   min-width: 50px;
   font-size: 1rem;
   z-index: 10;
-  &:hover {
+  &:hover, &:focus {
     color: #99cc66;
   }
   ${media.desktop`

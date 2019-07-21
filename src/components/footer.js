@@ -42,7 +42,7 @@ const StyledAnchor = styled.a `
       text-decoration: none;
       font-weight: 400;
       font-size: 1.15rem;
-      &:hover {
+      &:hover, &:focus {
         border-bottom: 1px solid #7556be;
       }
 `
