@@ -147,7 +147,6 @@ const Menu = class extends Component {
 render() {
     return (
  <HeaderWrapper>
-  {/* <Navbar /> */}
   <HeaderSpot>
     <Hamburger 
     onClick={() => this.toggleHamburger()}>Menu
@@ -157,7 +156,7 @@ render() {
    <HeaderNav>
         {this.props.headerLinks.map((headerLink, i) => (
             <HeaderLink to={headerLink.link} key={`header-link-${i}`}>
-              {headerLink.name}
+              {headerLink.name} 
             </HeaderLink>
             ))}      
   </HeaderNav>

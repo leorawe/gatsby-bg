@@ -32,8 +32,7 @@ const Education = () => (
     <DoubleUL>
       <li>	Anxiety</li>
       <li>	Depression</li>
-      <li>	Eating Disorders
-      </li>
+      
       <li>	Relationship Issues
       </li>
       <li>	Marital Issues
@@ -55,6 +54,8 @@ const Education = () => (
       <li>	Spirituality
       </li>
       <li>Jewish Family Life</li>
+      <li>	Eating Disorders
+      </li>
       <li>	Chronic Disease Self-Management
       </li>
       <li>	Diabetes Counseling
