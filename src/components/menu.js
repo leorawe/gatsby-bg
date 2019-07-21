@@ -93,6 +93,12 @@ const HeaderLink = styled(Link)`
   &:hover, &:focus {
     color: #99cc66;
   }
+  &.is-active,
+  &[aria-current="page"]
+   {
+    font-weight: 800;
+    color: #fefefe;
+  }
   ${media.desktop`
     padding: 10px;
     border-bottom: 1px solid gray;
@@ -154,6 +160,7 @@ render() {
    </HeaderSpot>
    <HeaderDesk>
    <HeaderNav>
+    <HeaderLink to="/"><span aria-label="home" role="img">🏡</span></HeaderLink>
         {this.props.headerLinks.map((headerLink, i) => (
             <HeaderLink to={headerLink.link} key={`header-link-${i}`}>
               {headerLink.name} 
@@ -165,6 +172,7 @@ render() {
   <HeaderMobile>
   <HeaderNav 
   className={this.state.isOpen===true ? "panel-open" : "panel-closed"}>
+        <HeaderLink to="/" aria-label="home"><span aria-label="home" role="img">🏡</span></HeaderLink>
         {this.props.headerLinks.map((headerLink, i) => (
             <HeaderLink to={headerLink.link} key={`header-link-${i}`}>
               {headerLink.name}

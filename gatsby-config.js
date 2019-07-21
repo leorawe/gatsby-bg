@@ -5,10 +5,6 @@ module.exports = {
     author: `@gatsbyjs`,
   headerLinks: [
     {
-      name: '🏡',
-      link: '/',
-    },
-    {
       name: 'Health and Wellness',
       link: '/health',
     },
