@@ -6,8 +6,7 @@ import Pagetitle from "../components/pagetitle"
 const Education = () => (
   <Layout>
     <SEO title="Education of Barbara Gelfand, LCSW" 
-
-      description="Barbara Gelfand: Master in Clinical Social Work, New York University. Private practice in Highland Park, NJ since 1990. Extensive experience providing clinical assessment, psychotherapy and case management."
+      description="Barbara Gelfand: Master in Clinical Social Work, New York University. Post-graduate studies Rutgers, NYU. Yoga teacher. Private practice in Highland Park, NJ."
     />
     <Pagetitle
     pagetitle = "Education of Barbara Gelfand, LCSW" />

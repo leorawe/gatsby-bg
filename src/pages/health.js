@@ -7,7 +7,7 @@ const Health = () => (
   <Layout>
     <SEO 
     title="Barbara Gelfand, LCSW Health and Wellness, therapist in New Jersey"
-    description="Barbara Gelfand's approach to health and wellness incorporates psychodynamic, cognitive behavioral, somatic and mindfulness-based therapies. Together these methods lead to a deeper understanding of the mind/body connection."
+    description="Barbara Gelfand's approach to health and wellness incorporates Psychodynamic, CBT-Cognitive Behavioral, Somatic, Mindfulness, Mind/body connection."
      />
     <Pagetitle
     pagetitle = "Health and Wellness" />

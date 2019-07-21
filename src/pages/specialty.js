@@ -22,7 +22,7 @@ const Education = () => (
   <Layout>
     <SEO 
     title="Areas of Specialty of Barbara Gelfand, LCSW" 
-    description="Barbara Gelfand's areas of specialty are individual, family and couples therapy treating anxiety, depression, relationships, grief, eating disorders, stress reduction, meditation, spirituality, Jewish family life"
+    description="Barbara Gelfand's specialties... individual, family, couples therapy for anxiety, depression, grief, eating disorders, stress, meditation, spirituality, Jewish life."
     />
     <Pagetitle
     pagetitle = "Areas of Specialty"
@@ -54,6 +54,7 @@ const Education = () => (
       </li>
       <li>	Spirituality
       </li>
+      <li>Jewish Family Life</li>
       <li>	Chronic Disease Self-Management
       </li>
       <li>	Diabetes Counseling
@@ -77,6 +78,7 @@ const Education = () => (
       <li>	Life Coaching
       </li>
       <li>	Life Transitions</li>
+      
     </DoubleUL>
   </Layout>
 )

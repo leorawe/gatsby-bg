@@ -21,7 +21,7 @@ const Contact = () => (
   <Layout>
     <SEO 
     title="Contact Barbara Gelfand" 
-    description="Contact Barbara Gelfand by email or by phone - located in Highland Park, New Jersey - office near Highland Park, East Brunswick, New Brunswick, Piscataway, Edison, Metuchen, Kendall Park, South Brunswick"
+    description="Contact barbaragelfand@gmail.com, 732-220-8844. Office in Highland Park near Rutgers Univ. New Brunswick, Edison, East Brunswick, Metuchen, Piscataway."
     />
     <Pagetitle
     pagetitle = "Contact Barbara Gelfand" />
