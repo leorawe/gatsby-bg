@@ -19,6 +19,9 @@ const BigFooter = styled.footer`
             flex: 1 0 30%;
             padding: 40px 0;
             &.email {text-align: right;}
+            &.phone {
+            font-size: 1.15rem;
+            }
         }
     }
    ${media.desktop`
@@ -37,7 +40,8 @@ const StyledAnchor = styled.a `
       color: white;
       border-bottom: 1px solid white;
       text-decoration: none;
-      font-weight: 700;
+      font-weight: 400;
+      font-size: 1.15rem;
       &:hover {
         border-bottom: 1px solid #7556be;
       }
@@ -46,7 +50,7 @@ const StyledAnchor = styled.a `
 const Footer = () => (
     <BigFooter>
         <div class="footer-wrapper">
-            <div>P: 732-220-8844</div>
+            <div class="phone">P: (732) 220-8844</div>
             <div class="website"><StyledAnchor href="https://barbaragelfandlcsw.com/">https://barbaragelfandlcsw.com/</StyledAnchor></div>
             <div class="email"><StyledAnchor href="mailto:barbaragelfand@gmail.com">barbaragelfand@gmail.com</StyledAnchor></div>
         </div>
