@@ -3,6 +3,7 @@ module.exports = {
     title: `Barbara Gelfand, LCSW`,
     description: `Licensed Clinical Social Worker`,
     author: `@gatsbyjs`,
+    siteUrl: `https://www.barbaragelfandlcsw.com`,
   headerLinks: [
     {
       name: 'Health and Wellness',
@@ -57,7 +58,7 @@ module.exports = {
         trackingId: "UA-144736683-1",
       },
     },
-    //`gatsby-plugin-sitemap`,
+    `gatsby-plugin-sitemap`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
