@@ -27,7 +27,7 @@ const Contact = () => (
     pagetitle = "Contact Barbara Gelfand" />
     <p><strong>732-220-8844</strong><br />
     <StyledAnchor href="mailto:barbaragelfand@gmail.com"><strong>barbaragelfand@gmail.com</strong></StyledAnchor></p>
-     <p> 1164 Raritan Avenue<br />
+     <p>307 Raritan Avenue<br />
       Highland Park, NJ 08904</p>
       <p>NJ License # SC05954</p>
       <StyledH2>Fee</StyledH2>
