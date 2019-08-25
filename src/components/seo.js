@@ -19,6 +19,7 @@ function SEO({ description, lang, meta, title }) {
             title
             description
             author
+            siteUrl
           }
         }
       }
@@ -26,6 +27,7 @@ function SEO({ description, lang, meta, title }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
+//  const twitterImage = data.site.siteMetadata.siteUrl/gelfand-card.jpg
 
   return (
     <Helmet
@@ -53,7 +55,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:card`,
-          content: `summary`,
+          content: `summary_large_image`,
         },
         {
           name: `twitter:creator`,
@@ -66,6 +68,10 @@ function SEO({ description, lang, meta, title }) {
         {
           name: `twitter:description`,
           content: metaDescription,
+        },
+        {
+          name: `twitter:image`,
+          content: `${site.siteMetadata.siteUrl}/images/gelfand-card.jpg`
         },
         {
           name: `google-site-verification`,
