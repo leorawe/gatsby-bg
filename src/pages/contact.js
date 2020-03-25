@@ -21,7 +21,7 @@ const Contact = () => (
   <Layout>
     <SEO 
     title="Contact Barbara Gelfand" 
-    description="Contact barbaragelfand@gmail.com, 732-220-8844. Office in Highland Park near Rutgers Univ. New Brunswick, Edison, East Brunswick, Metuchen, Piscataway."
+    description="Contact barbaragelfand@gmail.com, 732-220-8844. Telehealth Zoom sessions. Office in Highland Park near Rutgers Univ. New Brunswick, Edison, Metuchen, Piscataway, East Brunswick."
     />
     <Pagetitle
     pagetitle = "Contact Barbara Gelfand" />
@@ -36,6 +36,8 @@ My fee is $180/hr. for a 45-minute session.  I am an out-of network provider and
       <StyledH2>Office is Located Near</StyledH2>
        <div>Highland Park, East Brunswick, New Brunswick, Piscataway, Edison, Metuchen, Kendall Park, South Brunswick, Hillsborough and Montgomery</div>
 
+      <StyledH2>Telehealth Sessions</StyledH2>
+      <p>Telehealth video sessions available via Zoom, an easy-to-use secure HIPAA compliant videoconference service that can be accessed online with your home computer, or with the Zoom app on your mobile phone. Telemedicine visits are now reimbursable by most insurance companies. </p>
   </Layout>
 )
 
