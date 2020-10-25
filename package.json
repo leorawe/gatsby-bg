@@ -7,7 +7,7 @@
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.6",
     "express": "^4.17.1",
-    "gatsby": "^2.18.7",
+    "gatsby": "^2.24.83",
     "gatsby-image": "^2.2.14",
     "gatsby-plugin-google-analytics": "^2.1.11",
     "gatsby-plugin-manifest": "^2.2.9",
@@ -17,7 +17,7 @@
     "gatsby-plugin-sitemap": "^2.2.9",
     "gatsby-plugin-styled-components": "^3.1.3",
     "gatsby-source-filesystem": "^2.1.18",
-    "gatsby-transformer-sharp": "^2.2.12",
+    "gatsby-transformer-sharp": "^2.5.19",
     "lodash": "^4.17.15",
     "lodash.template": "^4.5.0",
     "prop-types": "^15.7.2",
@@ -27,7 +27,8 @@
     "styled-components": "^4.3.2"
   },
   "devDependencies": {
-    "prettier": "^1.18.2"
+    "prettier": "^1.18.2",
+    "webpack": "^5.1.3"
   },
   "keywords": [
     "gatsby"
