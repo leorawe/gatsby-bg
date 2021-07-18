@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "prettier": "^1.18.2",
-    "webpack": "^4.46.0"
+    "webpack": "^5.45.1"
   },
   "keywords": [
     "gatsby"
