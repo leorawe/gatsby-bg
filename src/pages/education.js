@@ -1,11 +1,11 @@
 import React from "react"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Pagetitle from "../components/pagetitle"
 
 const Education = () => (
   <Layout>
-    <SEO title="Education of Barbara Gelfand, LCSW" 
+    <Seo title="Education of Barbara Gelfand, LCSW" 
       description="Barbara Gelfand: Master in Clinical Social Work, New York University. Post-graduate studies Rutgers, NYU. Yoga teacher. Private practice in Highland Park, NJ."
     />
     <Pagetitle

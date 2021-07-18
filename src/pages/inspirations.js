@@ -1,11 +1,11 @@
 import React from "react"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Pagetitle from "../components/pagetitle"
 
 const Inspirations = () => (
   <Layout>
-    <SEO 
+    <Seo 
     title="Inspirations of Barbara Gelfand, LCSW, therapist in New Jersey"
     description="Holistic therapy and counseling in Central New Jersey located near Rutgers University, integrating positive psychology and compassion training. "
         />

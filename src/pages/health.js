@@ -1,11 +1,11 @@
 import React from "react"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Pagetitle from "../components/pagetitle"
 
 const Health = () => (
   <Layout>
-    <SEO 
+    <Seo
     title="Barbara Gelfand, LCSW Health and Wellness, therapist in New Jersey"
     description="Barbara Gelfand's approach to health and wellness incorporates Psychodynamic, CBT-Cognitive Behavioral, Somatic, Mindfulness, Mind/body connection."
      />

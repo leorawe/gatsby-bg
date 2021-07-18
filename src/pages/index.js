@@ -2,7 +2,7 @@ import React from "react"
 import styled from 'styled-components'
 
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Pagetitle from "../components/pagetitle"
 import media from '../components/mediaqueries'
 
@@ -29,7 +29,7 @@ const Emphasized = styled.div `
 
 const IndexPage = () => (
   <Layout>
-    <SEO
+    <Seo
     title="Psychotherapy Practice of Barbara Gelfand, LCSW"
     description="Experienced therapist, Barbara Gelfand, Highland Park, NJ provides therapy and counseling. Telehealth Zoom sessions available."
     />

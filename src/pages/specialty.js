@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import styled from "styled-components"
 
 import Pagetitle from "../components/pagetitle"
@@ -20,7 +20,7 @@ const DoubleUL = styled.ul`
 
 const Education = () => (
   <Layout>
-    <SEO 
+    <Seo 
     title="Areas of Specialty of Barbara Gelfand, LCSW" 
     description="Barbara Gelfand's specialties... individual, family, couples therapy for anxiety, depression, grief, eating disorders, stress, meditation, spirituality, Jewish life."
     />

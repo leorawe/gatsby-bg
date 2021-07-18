@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Pagetitle from "../components/pagetitle"
 import styled from 'styled-components'
 
@@ -19,7 +19,7 @@ const StyledAnchor = styled.a `
 
 const Contact = () => (
   <Layout>
-    <SEO 
+    <Seo 
     title="Contact Barbara Gelfand" 
     description="Contact barbaragelfand@gmail.com, 732-220-8844. Telehealth Zoom sessions. Office in Highland Park near Rutgers Univ. New Brunswick, Edison, Metuchen, Piscataway, East Brunswick."
     />
